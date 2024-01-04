@@ -1,81 +1,75 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Charm of Ancient Towers in Chongqing
+description: Chinavis2023 Challenge Track 2 'Visualizing Numbers, Understanding Millennia' Humanities Visualization Creative Competition Award-winning Works
+img: assets/img/project_data_visualization/project1_cover.jpg
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
+# Background
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The ancient architecture in Chongqing has a long history. 
+The people of Ba-Yu, with ingenious layouts in the mountainous city terrain, constructed numerous ancient architectural complexes such as temples, ancient temples, ancient streets, and dwellings. 
+Among them, ancient towers are a crucial component of cultural heritage, representing architectural techniques and aesthetic concepts from different historical periods. As symbols of religious and cultural significance, they bear rich historical and cultural connotations. 
+This project aims to utilize visualization technology to showcase the cultural heritage and historical value of Chongqing's ancient towers, providing users with a comprehensive, interactive, and in-depth platform to understand the ancient towers. 
+It seeks to promote the preservation of ancient towers, cultural inheritance, and tourism promotion, contributing a unique presentation method to the cultural heritage of Chongqing's ancient towers.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Data Collection and Analysis
+This project, through consulting books and documents such as 'Ancient Towers of Chongqing' and the results of the third national cultural relics survey, has gathered information on 227 ancient towers, including their locations, eras, materials, structures, and restoration status. Simultaneously, historical backgrounds of prominent ancient towers were researched, and high-definition images and videos were captured on-site. In terms of data analysis, a multidimensional approach was adopted to present information about Chongqing's ancient towers, including geographical, dynastic, watershed, and altitude distributions. Concurrently, research was conducted on well-known ancient towers, organizing architectural data and evaluation criteria. Representative ancient towers from different periods were selected, and data such as images and videos were collected to reconstruct the structural evolution of the towers throughout history.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_data_visualization/img1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_data_visualization/img2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_data_visualization/img3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Charts of Ancient Tower Dynastic Distribution, Ancient Tower Watershed Distribution, and Ancient Tower Altitude Distribution    
 </div>
+
+# Visualization Design
+The visualization system design includes three modules designed according to requirements: Overview Module, Transition Module, and Details Module.
+
+## Overview Module
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_data_visualization/img4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The Overview Module view
 </div>
+`The Overview Module` is primarily based on a geographic view, supplemented by dynastic distribution, watershed distribution, and altitude distribution views. It comprehensively and organically presents the spatial distribution characteristics, historical evolution, and cultural significance of ancient towers in Chongqing. Users can interactively explore the distribution features and patterns of ancient towers in Chongqing through this module.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+## Transition Module
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_data_visualization/img5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The Transition Module view
 </div>
+`The Transition Module` displays the historical evolution of ancient towers in Chongqing, presenting the changes in their architectural styles. Through a detailed understanding of the transition of ancient towers in Chongqing, one can gain a better insight into the changing trends and cultural significance of traditional Chinese architecture.
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+## Details Module
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_data_visualization/img6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    The Details Module view
+</div>
+`The Details Module` presents rich information about ancient towers in Chongqing, including model diagrams, detailed information, and high-definition videos. Radar charts illustrate the evaluation criteria of the towers, assessing their reliability, cultural significance, aesthetics, functionality, and technical aspects. Bubble charts encode detailed internal data of the towers. The three modules guide users to explore the history, culture, and artistic value of ancient towers in Chongqing in a comprehensive and interactive manner.
+
+# Conclusion
+Starting from visual discovery, this project primarily utilizes a geographic view, supplemented by dynastic distribution, watershed distribution, and altitude distribution views to comprehensively and organically present the spatial distribution characteristics, historical evolution, and cultural significance of ancient towers in Chongqing. Firstly, the generated 2.5D topographic map of Chongqing visualizes its steep mountains and rolling rivers. Further exploration of the geographic view reveals variations in the number of ancient towers in different districts and counties. These towers are often constructed at the confluence of mountains and rivers, standing tall amidst the landscape. Their features include elevated locations, construction on gentle slopes, and harmony with the urban structure. These characteristics are closely related to the historical economic and cultural development of each region. For instance, tower-style ancient structures are common in mountainous areas, complementing the undulating terrain and presenting magnificent landscapes. It is evident that Chongqing's ancient towers not only serve as historical witnesses of Chinese culture but also embody various understandings and aspirations towards the world. They carry significant meanings in terms of architecture, art, and culture.
+
+
