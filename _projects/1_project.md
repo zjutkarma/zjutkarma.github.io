@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
-# Background
+# Introduction
 
 The ancient architecture in Chongqing has a long history. 
 The people of Ba-Yu, with ingenious layouts in the mountainous city terrain, constructed numerous ancient architectural complexes such as temples, ancient temples, ancient streets, and dwellings. 
